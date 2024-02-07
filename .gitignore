@@ -1,6 +1,6 @@
-photos/*
+photos/*.jpg
 *.h5
 face_database.csv
-__pycache__/*
+__pycache__/
 *.pyc
-*.jpg
+.gitignore
