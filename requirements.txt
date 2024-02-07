@@ -1,0 +1,7 @@
+Flask
+Pillow
+numpy
+opencv-python-headless
+tensorflow
+matplotlib
+uuid

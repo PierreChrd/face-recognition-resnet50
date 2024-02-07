@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Images</title>
+</head>
+<body>
+    <h1>Top 3 Similar Images</h1>
+    <div>
+        {% for image_name, data in results %}
+        <div>
+            <h2>{{ image_name }}</h2>
+            <p>Distance: {{ data[1] }}</p>
+            <img src="{{ url_for('static', filename=image_name) }}" alt="Similar Image">
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

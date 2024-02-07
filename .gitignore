@@ -1,0 +1,6 @@
+photos/*
+*.h5
+face_database.csv
+__pycache__/*
+*.pyc
+*.jpg
