@@ -83,8 +83,15 @@ The prediction process involves using the trained model to compare embeddings of
 
 To use the system:
 
-1. **Download Requirements:** Download the `requirements.txt` file, which contains the necessary Python packages.
+1. **Download Requirements:** Download the `requirements.txt` file, which contains the necessary Python packages using the following command.
+```cmd
+py install -r requirements.txt
+```
+or
+```cmd
+python3 install -r requirements.txt
+```
   
 2. **Launch the Application:** Run `app.py` to start the web interface.
   
-3. **Interact with the Web UI:** Connect to the web interface and start taking photos using your camera. The system will process these images for face recognition, comparing them with images in the dataset to find the best match.
+3. **Interact with the Web UI:** Connect to the web interface (http://127.0.0.1:5000/) and start taking photos using your camera. The system will process these images for face recognition, comparing them with images in the dataset to find the best match.
